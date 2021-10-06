@@ -64,33 +64,3 @@ There are three functions that I'll be testing:
 
 The pytest methods are located in `eightpuzzle_tester.py`. Execute the pytests the same as HW0. Feel free to 
 include additional tests as long as you don't overwrite my original tests.
-
-## CSC575 Only:
-
-(25 pts.)
-
-Write a 1-2 page report that includes a table which empirically summarizes 
-the speed performance of A* on 8-puzzle using at least two heuristics (e.g. misplaced tiles, manhattan distance, etc.) 
-Use the python `time` module or PyCharm's profiling tools to log how long the search agent takes to find a solution.
-
-Write one additional local search agent: random walk. Simulate this agent N times. Include in your 
-report the following answers:
-* What % of times does the random agent find a solution?
-* When it finds a solution, how long does it take on average?
-
-Also code a local search hill climbing agent. Try it on both of your 
-heuristics.
-* Did they also find a solution?
-* How long did they take compared to A* and random walk?
-
-## Submission Instructions
-
-Submit this assignment by pushing/committing into our GitHub organization, exactly like HW 0. 
-Test your project locally 
-using pytest before pushing/committing. You may push/commit multiple times. Look at the Actions report on the 
-repository to double check the most recent result of the unit tests.
-
-## Acknowledgements
-
-The initial structure for this assignment was motivated by Lisa Torrey's 2016 Model AI Assignments contribution.
-
